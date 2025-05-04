@@ -1,0 +1,7 @@
+Run the project:
+1. docker-compose up
+2. Run the Kafka producer:
+   python kafka_producer/producer.py
+3. Submit Spark job:
+   spark-submit spark_streaming/fraud_detection_spark.py
+4. Open Power BI and refresh to view fraud dashboard
